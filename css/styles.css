@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navy {
+  background-color: #19173c;
+}
+
+.gray {
+  background-color: #3b4658;
+}
+
+.slate {
+  background-color: #a3b1b2;
+}
+
+.beige {
+  background-color: #d4c9b5;
+}
+
+.orange {
+  background-color: #ee9f38;
+}
+
+.offwhite {
+  background-color: #dcddd8;
+}
+
+.navy, .gray, .slate, .beige, .orange, .offwhite {
+  width: 100%;
+  height: 100%;
+}
+
