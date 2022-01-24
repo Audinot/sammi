@@ -17,7 +17,6 @@ body {
 header {
   height: 10em;
   display: flex;
-  align-items: center;
 }
 header .logo {
   width: 21em;
@@ -37,6 +36,7 @@ header ul {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 0.5em;
 }
 header ul li {
   width: 11em;
