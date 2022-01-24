@@ -13,12 +13,11 @@ To do:
 
 Code:
 
+- [x] Header/navbar design
 - [ ] Homepage code
 - [ ] Repertoire/CV code
 - [ ] Biography code
 - [ ] Contact page code
 
-Cleanup:
 
-- [ ] Javascript for extra style points
 
