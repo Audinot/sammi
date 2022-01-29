@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sammi Lee</title>
+  <title>Sammi Lee | Home</title>
   <meta chaset="UTF-8">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+  <!-- OLD header
   <header>
     <a href="#"><div class="logo"></div></a>
     <div class="links">
@@ -17,13 +18,53 @@
       </ul>
     </div>
   </header>
+  -->
 
-  <div class="navy"></div>
-  <div class="gray"></div>
-  <div class="slate"></div>
-  <div class="beige"></div>
-  <div class="orange"></div>
-  <div class="offwhite"></div>
+  <section class="showcase">
+    <header>
+      <div class="logo"></div>
+      <div class="toggle"></div>
+    </header>
+
+    <video src="img/cottonbro.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2>I believe</h2>
+      <h3>music is for anyone!</h3>
+      <p>I am Sammi Lee, musician and music teacher. Ask me about  
+        piano, guitar, singing, theory, or even rock music!</p>
+      <a href="#">Contact</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="#"><img src="img/facebook.png" alt="facebook"></a></li>
+      <li><a href="#"><img src="img/instagram.png" alt="instagram"></a></li>
+    </ul>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="#"><div class="home"></div></a></li>
+      <li><a href="#"><div class="bio"></div></a></li>
+      <li><a href="#"><div class="rep"></div></a></li>
+      <li><a href="#"><div class="contact"></div></a></li>
+    </ul>
+  </div>
+
+  </div>
+  
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  </script>
+
  </body>
  </html>
 

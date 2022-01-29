@@ -14,7 +14,7 @@ To do:
 Code:
 
 - [x] Header/navbar design
-- [ ] Homepage code
+- [x] Homepage code
 - [ ] Repertoire/CV code
 - [ ] Biography code
 - [ ] Contact page code
