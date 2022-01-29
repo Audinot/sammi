@@ -6,7 +6,7 @@ To do:
 
 - [x] Confirm colour palette
 - [x] Colour palette test
-- [ ] Homepage design
+- [x] Homepage design
 - [ ] Repertoire/CV design
 - [ ] Biography design
 - [ ] Contact page design
