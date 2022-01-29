@@ -19,5 +19,6 @@ Code:
 - [ ] Biography code
 - [ ] Contact page code
 
-
+Tweaks:
+- [x] Simplify homepage
 
