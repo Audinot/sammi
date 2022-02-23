@@ -7,18 +7,17 @@ To do:
 - [x] Confirm colour palette
 - [x] Colour palette test
 - [x] Homepage design
-- [ ] Repertoire/CV design
-- [ ] Biography design
-- [ ] Contact page design
+- [x] Repertoire/CV design
+- [x] Biography design
+- [x] Contact page design
 
 Code:
 
 - [x] Header/navbar design
 - [x] Homepage code
-- [ ] Repertoire/CV code
-- [ ] Biography code
-- [ ] Contact page code
+- [x] Repertoire/CV code
+- [x] Biography code
+- [x] Contact page code
 
 Tweaks:
 - [x] Simplify homepage
-
