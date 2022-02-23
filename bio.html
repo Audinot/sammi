@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sammi Lee | Biography</title>
+  <meta chaset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+
+  <!-- All none-homepage pages have a fixed background -->
+  <section class="showcase">
+    <header>
+      <a href="./index.html"><div class="logo"></div></a>
+      <div class="toggle"></div>
+    </header>
+
+
+    <div class="overlay-page"></div>
+
+
+    <!-- CONTENT for page -->
+    <div class="text">
+      <h3>Sammi Lee - Biography</h3>
+
+      <p>
+      Sammi was born into a family of artists, discovering the joy of piano
+      at the age of five and loving any form of the arts since. As a pianist,
+      classical solo singer, dancer, actress, choir member, and rock band
+      artist, she is a multi-talented performer who brings her work to all
+      sorts of stages. Sammi has a passion for sharing music, not only through
+      her performances but also through teaching and encouraging students.
+      </p>
+
+      <p>
+      Sammi Lee has acquired her MMT Master of Music Therapy, and also her
+      BFA Bachelor of Fine Arts with Honours (with a specialization in Classical
+      Piano) at York University. She has also been trained in guitar, vocal,
+      and Orff instruments.
+      </p>
+
+      <p>
+      Sammi has experience teaching music, in private schools and through
+      in-home lessons worldwide. She utilizes repertoire of all types of music
+      literature, including traditional and contemporary, that is appropriate
+      for all ages and skill levels to provide creative and professional music
+      lessons. Sammi's teaching methods are adaptive to the varying aptitudes
+      of each student. She appreciates instilling the joy of learning and making
+      music in each of her students.
+      </p>
+
+      <a href="./contact.html">Contact</a>
+    </div>
+
+    <!-- SOCIALS -->
+    <ul class="social">
+      <li><a href="https://www.facebook.com/amajormusiclesson"><img src="img/facebook.png" alt="facebook"></a></li>
+    </ul>
+
+  </section>
+
+  <!-- SIDEBAR MENU and JS toggle -->
+  <div class="menu">
+    <ul>
+      <li><a href="./index.html"><div class="home"></div></a></li>
+      <li><a href="./bio.html"><div class="bio"></div></a></li>
+      <li><a href="./rep.html"><div class="rep"></div></a></li>
+      <li><a href="./contact.html"><div class="contact"></div></a></li>
+    </ul>
+  </div>
+
+
+  <script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active');
+      showcase.classList.toggle('active');
+    });
+
+  </script>
+
+ </body>
+ </html>
